@@ -1,0 +1,5 @@
+Source-code for the http://ddewaele.blogspot.com/2011/05/google-url-shortener.html article.
+
+In the UrlShortener class, provide your API key in the GOOGLE_SHORTENER_URL variable.
+Although not required to provide a key variable in the URL, you are advised to do so.
+Providing an API key will allow you to monitor your API usage in https://code.google.com/apis/console.
