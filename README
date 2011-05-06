@@ -1,5 +1,24 @@
 Source-code for the http://ddewaele.blogspot.com/2011/05/google-url-shortener.html article.
 
-In the UrlShortener class, provide your API key in the GOOGLE_SHORTENER_URL variable.
+The code will shorten the URL 
+
+http://latifymobile.com/latify-features/google-fusion-tables/
+
+into
+
+http://goo.gl/5YHMh
+
+
+In the UrlShortener class, either provide your API key in the GOOGLE_SHORTENER_URL variable, or remove the key parameter from the URL.
+
+Otherwize, you'll get
+
+Exception in thread "main" com.google.api.client.http.HttpResponseException: 400 Bad Request
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:209)
+	at com.ecs.google.urlshortener.UrlShortener.main(UrlShortener.java:45)
+
 Although not required to provide a key variable in the URL, you are advised to do so.
 Providing an API key will allow you to monitor your API usage in https://code.google.com/apis/console.
+
+	
+	

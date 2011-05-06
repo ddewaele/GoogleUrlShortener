@@ -13,7 +13,7 @@ import com.google.api.client.util.Key;
 
 public class UrlShortener {
 
-	public static final String GOOGLE_SHORTENER_URL = "https://www.googleapis.com/urlshortener/v1/url?key=YOUR_API_KEY";
+	public static final String GOOGLE_SHORTENER_URL = "https://www.googleapis.com/urlshortener/v1/url?key=YOUR_API_KEY_HERE";
 	 
 	public static void main(String[] args) throws Exception {
 
@@ -34,7 +34,7 @@ public class UrlShortener {
         
         // Prepare the JSON data structure.
         GenericData data = new GenericData();
-        data.put("longUrl", "http://latifymobile.com/");
+        data.put("longUrl", "http://latifymobile.com/latify-features/google-fusion-tables/");
         JsonHttpContent content = new JsonHttpContent();
         content.data = data;
         
