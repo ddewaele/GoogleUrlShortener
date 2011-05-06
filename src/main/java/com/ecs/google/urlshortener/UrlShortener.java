@@ -13,7 +13,7 @@ import com.google.api.client.util.Key;
 
 public class UrlShortener {
 
-	public static final String GOOGLE_SHORTENER_URL = "https://www.googleapis.com/urlshortener/v1/url";
+	public static final String GOOGLE_SHORTENER_URL = "https://www.googleapis.com/urlshortener/v1/url?key=YOUR_API_KEY";
 	 
 	public static void main(String[] args) throws Exception {
 
